@@ -24,9 +24,9 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.6.2}
   s.summary = %q{Tool to help Heroku add-on providers integrating their services}
 
-  s.add_runtime_dependency(%q<launchy>, "~> 2.2.0")
+  s.add_runtime_dependency(%q<launchy>, ">= 2.2.0")
   s.add_runtime_dependency(%q<mechanize>, "~> 2.7.5")
-  s.add_runtime_dependency(%q<netrc>, "~> 0.10.3")
+  s.add_runtime_dependency(%q<netrc>, ">= 0.10.3")
   s.add_runtime_dependency(%q<rest-client>, "~> 1.8")
   s.add_runtime_dependency(%q<colored>, "~> 1.2")
 
